@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-30T12:53:29 OMST" name="Surefire suite" finished-at="2024-04-30T12:53:34 OMST" duration-ms="4831">
+    <groups>
+    </groups>
+    <test started-at="2024-04-30T12:53:29 OMST" name="Surefire test" finished-at="2024-04-30T12:53:34 OMST" duration-ms="4831">
+      <class name="SixthTask">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SixthTask@c0c2f8d]" started-at="2024-04-30T12:53:29 OMST" name="setUp" finished-at="2024-04-30T12:53:32 OMST" duration-ms="2966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTrianglePuzzle()[pri:0, instance:SixthTask@c0c2f8d]" started-at="2024-04-30T12:53:32 OMST" name="testTrianglePuzzle" finished-at="2024-04-30T12:53:34 OMST" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrianglePuzzle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SixthTask@c0c2f8d]" started-at="2024-04-30T12:53:34 OMST" name="tearDown" finished-at="2024-04-30T12:53:34 OMST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SixthTask -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
