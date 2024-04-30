@@ -2,26 +2,28 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 
 
 public class SixthTask {
 
-
     private WebDriver driver;
 
     @BeforeClass
     public void setUp() {
-        // Установка пути к драйверу Chrome
-        System.setProperty("webdriver.chrome.driver", "/Users/elinasihmirzaeva/Desktop/chromedriver_mac64/chromedriver");
 
-        driver = new ChromeDriver();
-
+        driver = new SafariDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
